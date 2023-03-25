@@ -1,0 +1,195 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+/* ESTILOS GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap');
+h1,h2,h3,p,a,div{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--var-color-background-white);
+}
+p{
+    font-size: 15px;
+    color: var(--var-color-background-gray);
+    line-height: 20px;
+}
+/* VARIAVEIS */
+:root{
+    --var-color-background-dark: #1f2937;
+    --var-color-background-blue: #3882f6;
+    --var-color-background-gray: #D3D3D3;
+    --var-color-background-white: #fff;
+}
+/* HEADER*/
+.header-c{
+display: flex;
+background-color:var(--var-color-background-dark);
+flex-wrap: wrap;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.header-nav-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-nav-list-item{
+    margin-left: 24px;
+    color: var(--var-color-background-gray);
+    font-weight: light;
+}
+.header-logo{
+    font-size: 24px;
+    margin: 15px 0;
+}
+.header-b{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+.header-b-c{
+    width: 50%;
+}
+.header-b-text{
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-p{
+    width: 90%;
+}
+.sign-up{
+    margin: 10px 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: var(--var-color-background-blue);
+}
+.header-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var-color-background-gray); 
+    width: 50%;
+}
+.placeholder-text{
+    color: var(--var-color-background-white);
+}
+/* INFORMATION */
+    .info{
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .info-title{
+        width: 100%;
+        color: black;
+        margin: 40px;
+        font-size: 30px;
+    }
+    .box-c{
+        width: 150px;
+        margin: 30px;
+        margin-bottom: 100px;
+        color: black;
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        border: 4px solid var(--var-color-background-blue);
+        border-radius: 10px;
+    }
+/* PHRASE */
+    .phrase-c{
+        display: flex;
+        background-color: var(--var-color-background-gray);
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: black;
+        width: 100%;
+        text-align: left;
+        font-style: italic;
+        
+    }
+    .phrase-text{
+        display: inline-block;
+        width: 40%;
+        line-height: 40px;
+    }
+    .phrase-credit{
+         color: black;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 20px;
+         text-align: right;
+    }
+/* CALL */
+    .call{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+
+    }
+    .call-c{
+        background-color: var(--var-color-background-blue);
+        border-radius: 10px;
+        display: flex;
+        padding: 10px 100px;
+       
+    }
+    .call-left{ 
+        margin: 30px;
+        flex-grow: 2;
+    }
+    .call-button{
+        align-self: center;
+        margin: 30px;
+        flex-grow: 1;
+        padding: 0px 30px;
+        height: 30px;
+        border-color: var(--var-color-background-white);
+        color: var(--var-color-background-white);
+        border-width: 3px;
+        
+    }
+    .sign-up-button-text{
+        height: 50%;
+
+    }
+/* HEADER */
+.footer{
+    display: flex;
+    background-color: var(--var-color-background-dark);
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
